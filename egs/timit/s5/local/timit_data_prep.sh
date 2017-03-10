@@ -40,7 +40,8 @@ fi
 uppercased=false
 train_dir=train
 test_dir=test
-if [ -d $*/TRAIN ]; then
+#if [ -d $*/TRAIN ]; then
+if [ -d 000 ]; then
   uppercased=true
   train_dir=TRAIN
   test_dir=TEST

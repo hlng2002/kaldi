@@ -37,7 +37,7 @@ fi
 
   ./regenerate-makefiles.sh || ./regenerate-makefiles.sh
 
-  ./configure --prefix `pwd`
+  ./configure --prefix `pwd` --disable-cxx0
 
 	make; make install
 ) || {
